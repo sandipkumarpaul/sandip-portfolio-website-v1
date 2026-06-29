@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects | Sandip Kumar Paul</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+    <div>
+        <input type="checkbox" id="theme-toggle" class="theme-toggle-checkbox" />
+    <label for="theme-toggle" class="theme-toggle-label">Toggle Dark Mode</label>
+
+    <div class="page-wrapper fade-in">
+        <div id="header">
+            <h1>My Projects</h1>
+            <p>A collection of my academic and extracurricular initiatives.</p>
+            
+            <div id="nav">
+                <ul>
+                    <li><a href="index.html">Back to Home</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="main">
+            <div class="section slide-up">
+                <h2>GitHub Repositories</h2>
+                <p>These projects are directly fetched and compiled from my public GitHub profile. They highlight my focus on automation, data science, and web systems development.</p>
+                
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Project Name</th>
+                                <th>Description &amp; Details</th>
+                                <th>Tech Stack</th>
+                                <th>Repository Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Profit-Driven Telco Churn Prediction</strong></td>
+                                <td>
+                                    An end-to-end machine learning project that predicts customer churn and uses a profit-driven framework to prioritize retention efforts for maximum financial impact.
+                                </td>
+                                <td>Machine Learning / Python</td>
+                                <td>
+                                    <a href="https://github.com/sandipkumarpaul/Profit-Driven-Telco-Churn-Prediction">View on GitHub</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>birthday-wishes-automator</strong></td>
+                                <td>
+                                    A Google Apps Script workflow designed to automatically send highly personalized birthday emails to team members. Useful for organizational management and HR automation.
+                                </td>
+                                <td>JavaScript / Google Apps Script</td>
+                                <td>
+                                    <a href="https://github.com/sandipkumarpaul/birthday-wishes-automator">View on GitHub</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>smart-campus-service-hub</strong></td>
+                                <td>
+                                    A web application serving as a centralized service hub for campus utility management, helping students coordinate logistics, bookings, and campus resources.
+                                </td>
+                                <td>HTML / CSS / JavaScript</td>
+                                <td>
+                                    <a href="https://github.com/sandipkumarpaul/smart-campus-service-hub">View on GitHub</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <p>&copy; 2026 Sandip Kumar Paul. All Rights Reserved.</p>
+            <p class="js-footer-info">
+                Page Location: <span id="page-loc"></span><br />
+                Last Modified: <span id="last-mod"></span>
+            </p>
+        </div>
+    </div>
+    </div>
+
+    <script type="text/javascript">
+        // <![CDATA[
+        document.getElementById('page-loc').textContent = window.location.href;
+        document.getElementById('last-mod').textContent = document.lastModified;
+        // ]]>
+    </script>
+</body>
+</html>
